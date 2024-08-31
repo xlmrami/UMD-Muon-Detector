@@ -2040,7 +2040,108 @@
 				)
 			)
 		)
-		(symbol "MuonDetector:Sipm"
+		(symbol "MuonDetector:SIPM1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SIPM1_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy -10.16 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "A_(+)"
+					(at 3.556 -4.572 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "C_(-)"
+					(at -3.302 3.556 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MuonDetector:Sipm Connector"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2087,7 +2188,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Sipm_0_1"
+			(symbol "Sipm Connector_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy -5.08 -2.54)
@@ -2161,7 +2262,7 @@
 					)
 				)
 			)
-			(symbol "Sipm_1_1"
+			(symbol "Sipm Connector_1_1"
 				(rectangle
 					(start -2.54 6.35)
 					(end 5.08 -3.81)
@@ -2215,14 +2316,6 @@
 				)
 				(text "6"
 					(at -4.064 6.096 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "Sipm"
-					(at 1.27 1.778 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3132,6 +3225,12 @@
 		)
 	)
 	(junction
+		(at 69.85 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "074cb736-9e64-4c1c-80f9-8191bcd1844f")
+	)
+	(junction
 		(at 251.46 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3142,6 +3241,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18408499-9e1e-4238-8736-437bc9f63ffb")
+	)
+	(junction
+		(at 64.77 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cc5bf33-dd29-482c-946d-4a75233a92db")
+	)
+	(junction
+		(at 58.42 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24240701-c382-4ecd-8c2a-c44b036ff90d")
 	)
 	(junction
 		(at 90.17 138.43)
@@ -3256,6 +3367,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cde7b63-c938-4665-a162-63c849a31c3a")
+	)
+	(junction
+		(at 99.06 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87a8902a-ec5e-42aa-89f9-af23b5ed371d")
 	)
 	(junction
 		(at 210.82 135.89)
@@ -3439,6 +3556,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 22.86) (xy 72.39 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0916c2cf-6522-41c2-953d-98434dd0a6c2")
+	)
+	(wire
+		(pts
 			(xy 241.3 19.05) (xy 241.3 20.32)
 		)
 		(stroke
@@ -3466,6 +3593,16 @@
 			(type default)
 		)
 		(uuid "0b7e1534-32cf-4115-95c3-9f08edaa3ce1")
+	)
+	(wire
+		(pts
+			(xy 58.42 22.86) (xy 64.77 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bce0a09-ba2d-4378-9c31-d2e1ad7f4f51")
 	)
 	(wire
 		(pts
@@ -3569,6 +3706,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 49.53) (xy 99.06 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c851568-6918-4b83-906b-58feba4c1eec")
+	)
+	(wire
+		(pts
 			(xy 72.39 77.47) (xy 72.39 69.85)
 		)
 		(stroke
@@ -3649,6 +3796,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 49.53) (xy 102.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3693d2ef-3edf-4efb-92df-9fc66fa72785")
+	)
+	(wire
+		(pts
 			(xy 205.74 124.46) (xy 205.74 130.81)
 		)
 		(stroke
@@ -3666,6 +3823,16 @@
 			(type default)
 		)
 		(uuid "39cd8838-6eff-44e1-8c6f-28944d98f8a2")
+	)
+	(wire
+		(pts
+			(xy 64.77 22.86) (xy 69.85 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf1fb34-43b7-4727-acbc-4af901177aaa")
 	)
 	(wire
 		(pts
@@ -3909,6 +4076,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 22.86) (xy 82.55 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7159d9a6-a471-489f-881a-795ef6d9d49c")
+	)
+	(wire
+		(pts
 			(xy 251.46 45.72) (xy 251.46 39.37)
 		)
 		(stroke
@@ -3946,6 +4123,16 @@
 			(type default)
 		)
 		(uuid "75f2cedb-26fe-4e16-9ac3-9e06e546c4ef")
+	)
+	(wire
+		(pts
+			(xy 68.58 57.15) (xy 48.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b1cfc6-f43f-4d34-8adf-e3a0efb8d79e")
 	)
 	(wire
 		(pts
@@ -4156,6 +4343,16 @@
 			(type default)
 		)
 		(uuid "926fd6e9-e798-4bc3-9adf-34916c17fe4e")
+	)
+	(wire
+		(pts
+			(xy 48.26 22.86) (xy 48.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cd8162-0e85-4c0b-8f38-e822fd2ee52d")
 	)
 	(wire
 		(pts
@@ -4399,6 +4596,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 22.86) (xy 50.8 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fbcbfc-3cd0-4b19-a50a-d8d50d724e2c")
+	)
+	(wire
+		(pts
 			(xy 60.96 107.95) (xy 60.96 109.22)
 		)
 		(stroke
@@ -4406,6 +4613,16 @@
 			(type default)
 		)
 		(uuid "b5fbebf0-e73d-4d1a-8476-ea584171a1a4")
+	)
+	(wire
+		(pts
+			(xy 102.87 31.75) (xy 102.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73eb073-894f-4146-ae86-1f8d7370161b")
 	)
 	(wire
 		(pts
@@ -4902,6 +5119,69 @@
 			(project "Muondetector"
 				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MuonDetector:Sipm Connector")
+		(at 73.66 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04e8e248-2131-48d0-ab2b-6d66ad8c3f7a")
+		(property "Reference" "U10"
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 82.55 54.2262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -5637,6 +5917,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b7413eb-5798-40a3-b6f9-d41496420200")
+		(property "Reference" "#PWR024"
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "936d3c1c-c465-4bba-beb8-6a91b8e8db3b")
+		)
+		(instances
+			(project "Muondetector"
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 232.41 110.49 0)
 		(unit 1)
@@ -6088,6 +6434,76 @@
 			(project ""
 				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 82.55 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45bc3220-bf0b-451c-904e-5b1c95faabfa")
+		(property "Reference" "C9"
+			(at 86.36 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 86.36 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.5152 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a0560d7-1ed9-4b60-b78b-8330580b71c3")
+		)
+		(pin "2"
+			(uuid "4ceb097d-9d31-4d65-9fcf-b4d933a2a906")
+		)
+		(instances
+			(project "Muondetector"
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6909,6 +7325,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 82.55 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62be690a-5f74-4785-8082-385deb28e81a")
+		(property "Reference" "#PWR027"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b54916b-e85f-4726-a3b7-841958445bb7")
+		)
+		(instances
+			(project "Muondetector"
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "736ec467-dc44-4010-b2fb-d0276ab73c91")
+		(property "Reference" "#PWR025"
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6867213b-f27c-4a8d-9ab8-8a3e3391110a")
+		)
+		(instances
+			(project "Muondetector"
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 54.61 82.55 90)
 		(unit 1)
@@ -7250,7 +7798,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MuonDetector:Sipm")
+		(lib_id "MuonDetector:Sipm Connector")
 		(at 35.56 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7258,7 +7806,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8546e4d6-8269-426e-99fb-4e42f2633fd8")
+		(uuid "83a85679-2c84-42b8-a036-20244d7cb752")
 		(property "Reference" "U5"
 			(at 44.45 61.2111 0)
 			(effects
@@ -7586,6 +8134,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 69.85 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99d6a633-5cdc-4504-86d6-5c69b463cc61")
+		(property "Reference" "C11"
+			(at 73.66 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 73.66 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.8152 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9c9d4df-06c7-4fad-8abd-44a5fc609a91")
+		)
+		(pin "2"
+			(uuid "5c68bdf7-ebe4-4874-809b-83089922432c")
+		)
+		(instances
+			(project "Muondetector"
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bb2371a-5e3a-4d9e-8a01-282b6178e9ae")
+		(property "Reference" "R21"
+			(at 54.61 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 54.61 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 24.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28063e98-f80d-49a0-98c1-5ef221008bc3")
+		)
+		(pin "2"
+			(uuid "8472a395-1d24-4f4a-a6ad-3417e12f0f77")
+		)
+		(instances
+			(project ""
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 67.31 0)
 		(unit 1)
@@ -7646,6 +8332,76 @@
 			(project ""
 				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 58.42 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa88cef0-be6b-4374-8bd4-165743789eed")
+		(property "Reference" "C8"
+			(at 62.23 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 62.23 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.3852 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 58.42 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4141028b-3a1b-4e83-b09a-93822329e67a")
+		)
+		(pin "2"
+			(uuid "01990e0f-52a8-49c5-a2ab-11f94d6c8e23")
+		)
+		(instances
+			(project ""
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8165,6 +8921,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 64.77 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c15cd8ec-e386-4210-81da-72535ed5884d")
+		(property "Reference" "C10"
+			(at 68.58 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 68.58 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.7352 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac8d26cb-cfea-421b-a6cc-cf83c6ba5f84")
+		)
+		(pin "2"
+			(uuid "aeb8e418-b5e6-486d-bab5-22c4fb60c682")
+		)
+		(instances
+			(project "Muondetector"
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 95.25 0)
 		(unit 1)
@@ -8292,6 +9118,72 @@
 			(project ""
 				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c70d3d0e-6f03-4826-80f8-48ac583d1688")
+		(property "Reference" "#PWR026"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4cb0cbf-af2d-406c-a519-cc32eccda59a")
+		)
+		(instances
+			(project "Muondetector"
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8494,6 +9386,70 @@
 			(project ""
 				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MuonDetector:SIPM1")
+		(at 92.71 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d50302af-34ef-4193-b17c-794a297a0763")
+		(property "Reference" "U11"
+			(at 104.14 26.0349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 104.14 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -8906,6 +9862,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 99.06 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e93069a2-10f4-4223-8a9a-45bd7e65c581")
+		(property "Reference" "R23"
+			(at 101.6 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R"
+			(at 101.6 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.838 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1cba85d-825e-46b5-a8b8-a3f6adf80b9e")
+		)
+		(pin "2"
+			(uuid "b57252f2-de93-4dcc-9de1-4fa8036bc453")
+		)
+		(instances
+			(project "Muondetector"
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MuonDetector:MPR_Pressure_sensor")
 		(at 204.47 46.99 180)
 		(unit 1)
@@ -8963,6 +9989,72 @@
 			(project ""
 				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec94ca08-9b8e-4a7e-8fbf-5cbb08969846")
+		(property "Reference" "#PWR023"
+			(at 58.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09b76f50-da96-4266-9b0e-2d8566922a49")
+		)
+		(instances
+			(project "Muondetector"
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9095,6 +10187,74 @@
 			(project ""
 				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f61f52c8-cea5-4e86-b8d8-4cde87e74bd4")
+		(property "Reference" "R22"
+			(at 76.2 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 76.2 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 24.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "317ffe59-a3ad-4965-b56a-9eacced10db6")
+		)
+		(pin "2"
+			(uuid "fda826d0-81a2-44b2-a85c-508ed3bef1e9")
+		)
+		(instances
+			(project "Muondetector"
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "R22")
 					(unit 1)
 				)
 			)
