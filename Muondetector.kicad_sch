@@ -2040,6 +2040,147 @@
 				)
 			)
 		)
+		(symbol "MuonDetector:OLED"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OLED_1_1"
+				(rectangle
+					(start -8.89 7.62)
+					(end 1.27 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -11.43 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -1.27) (xy -11.43 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 1.27) (xy -11.43 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 3.81) (xy -11.43 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "GND\n"
+					(at -6.858 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SCK"
+					(at -6.858 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SDA"
+					(at -6.858 3.556 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "VDD"
+					(at -6.858 -3.556 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MuonDetector:SIPM1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3626,6 +3767,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 81.28) (xy 180.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141c7aa1-eb36-45c9-9241-82837a6951c2")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 179.07 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14aae832-2e49-4ba0-a2b4-04c159ec5b1c")
+	)
+	(wire
+		(pts
 			(xy 78.74 105.41) (xy 78.74 97.79)
 		)
 		(stroke
@@ -3916,6 +4077,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 62.23) (xy 177.8 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b364cca-674c-40d7-8945-de7d4aaf7b16")
+	)
+	(wire
+		(pts
 			(xy 163.83 88.9) (xy 180.34 88.9)
 		)
 		(stroke
@@ -4063,6 +4234,16 @@
 			(type default)
 		)
 		(uuid "68c654f0-49a8-4e81-8003-88c1e7537495")
+	)
+	(wire
+		(pts
+			(xy 177.8 62.23) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2c4c62-bb57-4f1e-873f-e2a5980ac422")
 	)
 	(wire
 		(pts
@@ -4296,6 +4477,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 60.96) (xy 243.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d33ff13-b740-4000-9126-0d7430219323")
+	)
+	(wire
+		(pts
 			(xy 177.8 135.89) (xy 175.26 135.89)
 		)
 		(stroke
@@ -4353,6 +4544,16 @@
 			(type default)
 		)
 		(uuid "92cd8162-0e85-4c0b-8f38-e822fd2ee52d")
+	)
+	(wire
+		(pts
+			(xy 175.26 63.5) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ffcc83-54b1-45d5-9e26-3a49d6a41a5a")
 	)
 	(wire
 		(pts
@@ -4456,6 +4657,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 80.01) (xy 240.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34e6ec4-874b-4064-8be2-66d5c233c0f9")
+	)
+	(wire
+		(pts
 			(xy 175.26 71.12) (xy 180.34 71.12)
 		)
 		(stroke
@@ -4473,6 +4684,16 @@
 			(type default)
 		)
 		(uuid "a423f693-2d16-40c3-91b2-1bc692f2b04f")
+	)
+	(wire
+		(pts
+			(xy 241.3 74.93) (xy 241.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4300331-5de3-4ff0-979c-b59e931ea11f")
 	)
 	(wire
 		(pts
@@ -4716,6 +4937,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 78.74) (xy 179.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3de64e0-75fd-4718-aadf-4ca06ccebd13")
+	)
+	(wire
+		(pts
+			(xy 243.84 60.96) (xy 243.84 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bef8f1-4473-44fd-a9ba-8419d2c8890c")
+	)
+	(wire
+		(pts
 			(xy 182.88 41.91) (xy 184.15 41.91)
 		)
 		(stroke
@@ -4836,6 +5077,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 63.5) (xy 175.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca7229c-176e-4298-b318-069396999195")
+	)
+	(wire
+		(pts
 			(xy 162.56 71.12) (xy 175.26 71.12)
 		)
 		(stroke
@@ -4936,6 +5187,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 74.93) (xy 241.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77a20b3-09cd-43be-93c6-41c1bfd6b31f")
+	)
+	(wire
+		(pts
 			(xy 58.42 82.55) (xy 67.31 82.55)
 		)
 		(stroke
@@ -5003,6 +5264,16 @@
 			(type default)
 		)
 		(uuid "fd2df057-eabb-46ee-a5c2-19626d73a2c0")
+	)
+	(wire
+		(pts
+			(xy 240.03 80.01) (xy 240.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feac5a3c-95fc-485f-9636-0c71c2d9e567")
 	)
 	(text "3.3v"
 		(exclude_from_sim no)
@@ -7258,6 +7529,70 @@
 		)
 	)
 	(symbol
+		(lib_id "MuonDetector:OLED")
+		(at 255.27 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d916544-9d33-49ad-93cc-8bed4736f417")
+		(property "Reference" "U12"
+			(at 257.81 75.5649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 257.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 243.84 101.6 270)
 		(unit 1)
@@ -8985,6 +9320,73 @@
 			(project "Muondetector"
 				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3560dd3-3e41-408f-8958-488027887dac")
+		(property "Reference" "#PWR028"
+			(at 237.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c58bb04a-df69-4aef-abe0-4d0006552938")
+		)
+		(instances
+			(project "Muondetector"
+				(path "/2868b003-41fd-4cc1-9371-8ef269c68894"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
