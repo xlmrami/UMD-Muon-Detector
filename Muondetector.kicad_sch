@@ -5325,6 +5325,17 @@
 		)
 		(uuid "c130991b-d82e-4d3a-9af2-e4b344148f32")
 	)
+	(label "This is a test"
+		(at 128.27 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8908bf7a-2f64-4f62-b3db-c087682d8a78")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 210.82 147.32 0)
